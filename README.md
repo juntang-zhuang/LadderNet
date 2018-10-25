@@ -52,7 +52,7 @@ The following table compares this method to other recent techniques, which have 
 | orobix                  | .9790            |
 | **this method**         | **.9794**        |
 
-![](test/test_Original_GroundTruth_Prediction3.png)
+![](figures/result.png)
 
 # Method
 * Laddernet can be viewed as a chain of two U-Nets to generate multiple paths of FCN for information flow.
