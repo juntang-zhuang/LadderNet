@@ -23,7 +23,7 @@ from sklearn.metrics import precision_recall_curve
 from sklearn.metrics import jaccard_similarity_score
 from sklearn.metrics import f1_score
 import sys
-sys.path.insert(0, '../lib/')
+sys.path.insert(0, '../')
 # help_functions.py
 from lib.help_functions import *
 # extract_patches.py
