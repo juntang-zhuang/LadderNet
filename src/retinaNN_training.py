@@ -58,19 +58,18 @@ total_epoch = 200
 
 val_portion = 0.1
 
-lr_epoch = np.array([150,total_epoch])
-lr_value= np.array([0.001,0.0001])
+lr_epoch = np.array([50,150,total_epoch])
+lr_value= np.array([0.01,0.001,0.0001])
 
 layers = 4
 filters = 10
 
-from LadderNet import LadderNet
 from LadderNetv65 import LadderNetv6
 
 net = LadderNetv6(num_classes=2,layers=layers,filters=filters,inplanes=1)
 print("Toral number of parameters: "+str(count_parameters(net)))
 
-check_path = 'LadderNetv64_layer_%d_filter_%d.pt7'% (layers,filters) #'UNet16.pt7'#'UNet_Resnet101.pt7'
+check_path = 'LadderNetv65_layer_%d_filter_%d.pt7'% (layers,filters) #'UNet16.pt7'#'UNet_Resnet101.pt7'
 
 resume = True
 
