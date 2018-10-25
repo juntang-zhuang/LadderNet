@@ -8,6 +8,6 @@
 * configparser
 
 # How to run
-* run "python prepare_datasets_DRIVE.py" to generate hdf5 file of training data
+* run <b>"python prepare_datasets_DRIVE.py"</b> to generate hdf5 file of training data
 * run "cd src"
 * run ""
