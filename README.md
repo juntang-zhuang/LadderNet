@@ -2,12 +2,6 @@
 * This is repository for my paper [LadderNet: Multi-path networks based on U-Net for medical image segmentation](https://arxiv.org/abs/1810.07810). <br>
 * This implementation is based on [orobix implementation](https://github.com/orobix/retina-unet). Main difference is the structure of the model.
 
-# Method
-* Laddernet can be viewed as a chain of two U-Nets to generate multiple paths of FCN for information flow.
-![LadderNet structure](figures/laddernet_graph.png)
-* use shared weights between two conv layers within a residual block.
-![shared-weights res block](figures/resblock.png)
-
 # Requirement
 * Python3 
 * PyTorch 0.4
@@ -44,3 +38,9 @@ The following table compares this method to other recent techniques, which have 
 | **this method**         | **.9794**        |
 
 ![](test/test_Original_GroundTruth_Prediction3.png)
+
+# Method
+* Laddernet can be viewed as a chain of two U-Nets to generate multiple paths of FCN for information flow.
+![LadderNet structure](figures/laddernet_graph.png)
+* use shared weights between two conv layers within a residual block.
+![shared-weights res block](figures/resblock.png)
