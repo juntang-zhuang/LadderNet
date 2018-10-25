@@ -4,9 +4,9 @@
 
 # Method
 * Laddernet can be viewed as a chain of two U-Nets to generate multiple paths of FCN for information flow.
-[LadderNet structure](figures/laddernet_graph.png)
+![LadderNet structure](figures/laddernet_graph.png)
 * use shared weights between two conv layers within a residual block.
-[shared-weights res block](figrues/resblock.png)
+![shared-weights res block](figrues/resblock.png)
 
 # Requirement
 * Python3 
