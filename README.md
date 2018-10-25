@@ -14,5 +14,9 @@
 * run <b>"python retinaNN_predict.py"</b> to test
 
 # Parameter defination
-* parameters (path, patch size, et al.) are defined in "configuration.txt"
-* training parameters are defined in src/retinaNN_training.py line 49 t 84 with notes "=====Define parameters here ========="
+* parameters (path, patch size, et al.) are defined in <b>"configuration.txt"</b>
+* training parameters are defined in src/retinaNN_training.py line 49 t 84 with notes <b>"=====Define parameters here =========" </b>
+
+# Pretrained weights and results
+* pretrained weights are stored in <b>"src/checkpoint"</b>
+* results are stored in <b>"test/"</b>
