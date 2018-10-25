@@ -36,3 +36,5 @@ The following table compares this method to other recent techniques, which have 
 | Liskowski et al.^ [8]   | .9790            |
 | orobix                  | .9790            |
 | **this method**         | **.9794**        |
+
+![](test/test_Original_GroundTruth_Prediction3.png)
