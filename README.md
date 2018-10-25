@@ -8,7 +8,11 @@
 * configparser
 
 # How to run
-* run '''python prepare_datasets_DRIVE.py''' to generate hdf5 file of training data
+* run 
+'''
+python prepare_datasets_DRIVE.py
+''' 
+to generate hdf5 file of training data
 * run <b>"cd src"</b>
 * run <b>"python retinaNN_training.py"</b> to train
 * run <b>"python retinaNN_predict.py"</b> to test
