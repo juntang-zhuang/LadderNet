@@ -58,8 +58,8 @@ total_epoch = 200
 
 val_portion = 0.1
 
-lr_epoch = np.array([50,150,total_epoch])
-lr_value= np.array([0.01,0.001,0.0001])
+lr_epoch = np.array([150,total_epoch])
+lr_value= np.array([0.001,0.0001])
 
 layers = 4
 filters = 10
