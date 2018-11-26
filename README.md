@@ -3,6 +3,16 @@
 * This is repository for my paper [LadderNet: Multi-path networks based on U-Net for medical image segmentation](https://arxiv.org/abs/1810.07810), and avhieves the best result on DRIVE and CHASE_DB1 dataset up to the date of submission<br>
 * This implementation is based on [orobix implementation](https://github.com/orobix/retina-unet). Main difference is the structure of the model.
 
+# Citation
+**LadderNet: Multi-path networks based on U-Net for medical image segmentation**[[arxiv]](https://arxiv.org/abs/1810.07810)
+```
+@article{zhuang2018laddernet,
+  title={LadderNet: Multi-path networks based on U-Net for medical image segmentation},
+  author={Zhuang, Juntang},
+  journal={arXiv preprint arXiv:1810.07810},
+  year={2018}
+}
+```
 # Requirement
 * Python3 
 * PyTorch 0.4
