@@ -1,4 +1,5 @@
 # LadderNet 
+* [Link to project page](https://github.com/juntang-zhuang/LadderNet)
 * [Link to my homepage](https://juntangzhuang.com)
 * This is repository for my paper [LadderNet: Multi-path networks based on U-Net for medical image segmentation](https://arxiv.org/abs/1810.07810), and avhieves the best result on DRIVE and CHASE_DB1 dataset up to the date of submission<br>
 * This implementation is based on [orobix implementation](https://github.com/orobix/retina-unet). Main difference is the structure of the model.
