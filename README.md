@@ -1,19 +1,5 @@
-# LadderNet 
-* [Link to project page](https://github.com/juntang-zhuang/LadderNet)
-* [Link to my homepage](https://juntangzhuang.com)
-* This is repository for my paper [LadderNet: Multi-path networks based on U-Net for medical image segmentation](https://arxiv.org/abs/1810.07810), and avhieves the best result on DRIVE and CHASE_DB1 dataset up to the date of submission<br>
 * This implementation is based on [orobix implementation](https://github.com/orobix/retina-unet). Main difference is the structure of the model.
 
-# Citation
-**LadderNet: Multi-path networks based on U-Net for medical image segmentation**[[arxiv]](https://arxiv.org/abs/1810.07810)
-```
-@article{zhuang2018laddernet,
-  title={LadderNet: Multi-path networks based on U-Net for medical image segmentation},
-  author={Zhuang, Juntang},
-  journal={arXiv preprint arXiv:1810.07810},
-  year={2018}
-}
-```
 # Requirement
 * Python3 
 * PyTorch 0.4
@@ -65,9 +51,3 @@ The following table compares this method to other recent techniques, which have 
 | **this method**         | **.9794**        |
 
 ![](figures/result.png)
-
-# Method
-* Laddernet can be viewed as a chain of two U-Nets to generate multiple paths of FCN for information flow.
-![LadderNet structure](figures/laddernet_graph.png)
-* use shared weights between two conv layers within a residual block.
-![shared-weights res block](figures/resblock.png)
