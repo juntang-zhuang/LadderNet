@@ -1,4 +1,4 @@
-** Implementation for paper [LadderNet: Multi-path networks based on U-Net for medical image segmentation
+# Implementation for paper [LadderNet: Multi-path networks based on U-Net for medical image segmentation
 ](https://arxiv.org/abs/1810.07810)
 * This implementation is based on [orobix implementation](https://github.com/orobix/retina-unet). Main difference is the structure of the model.
 
