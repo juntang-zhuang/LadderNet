@@ -3,7 +3,7 @@
 * This implementation is based on [orobix implementation](https://github.com/orobix/retina-unet). Main difference is the structure of the model.
 
 # Requirement
-* Python3 
+* Python3.6
 * PyTorch 0.4
 * configparser
 
